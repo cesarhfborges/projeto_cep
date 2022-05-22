@@ -2,4 +2,9 @@
 
 
 ### Requisitos
-- [Node]('https://nodejs.org/dist/v14.15.0/node-v14.15.0-x64.msi')
+- [Android Studio](https://nodejs.org/dist/v14.15.0/node-v14.15.0-x64.msi)
+- [Node](https://nodejs.org/dist/v14.15.0/node-v14.15.0-x64.msi)
+- [Node](https://nodejs.org/dist/v14.15.0/node-v14.15.0-x64.msi)
+- [Node](https://nodejs.org/dist/v14.15.0/node-v14.15.0-x64.msi)
+- [Node](https://nodejs.org/dist/v14.15.0/node-v14.15.0-x64.msi)
+- [Node](https://nodejs.org/dist/v14.15.0/node-v14.15.0-x64.msi)
