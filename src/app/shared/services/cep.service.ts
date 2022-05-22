@@ -14,6 +14,6 @@ export class CepService {
   }
 
   getCep(cep: string): Observable<any> {
-    return this.http.get(`${environment.apiUrl}/${cep}/json/`);
+    return this.http.get<any>(`${environment.apiUrl}/${cep}/json/`);
   }
 }

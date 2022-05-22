@@ -1,15 +1,40 @@
-<ion-header [translucent]="true">
+<ion-header>
   <ion-toolbar>
     <ion-title>
-      Blank
+      Buscar CEP
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
+<ion-content>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+  <ion-grid>
+    <ion-row>
+
+      <ion-col size="12">
+        <ion-item>
+          <ion-label position="stacked">CEP:</ion-label>
+          <ion-input [(ngModel)]="inputCep"></ion-input>
+        </ion-item>
+      </ion-col>
+
+      <ion-col class="ion-margin-top" size="12">
+        <ion-button (click)="localizarCep()" expand="block" color="success" size="large">Localizar</ion-button>
+      </ion-col>
+
+      <ion-col *ngIf="resultadoCep" id="meuCep" class="ion-margin-top" size="12">
+        <p>cep: {{resultadoCep.cep}}</p>
+        <p>logradouro: {{resultadoCep.logradouro}}</p>
+        <p>complemento: {{resultadoCep.complemento}}</p>
+        <p>bairro: {{resultadoCep.bairro}}</p>
+        <p>localidade: {{resultadoCep.localidade}}</p>
+        <p>uf: {{resultadoCep.uf}}</p>
+        <p>ibge: {{resultadoCep.ibge}}</p>
+        <p>gia: {{resultadoCep.gia}}</p>
+        <p>ddd: {{resultadoCep.ddd}}</p>
+        <p>siafi: {{resultadoCep.siafi}}</p>
+      </ion-col>
+
+    </ion-row>
+  </ion-grid>
 </ion-content>
