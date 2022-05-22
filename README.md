@@ -44,3 +44,15 @@ ionic generate page login
 ```
 ionic generate component lista
 ```
+
+### Adicionando Android
+Vamos agora adicionar ao projeto o suporte a android, este comando é executado apenas uma vez para ativar esse recurso.
+```
+ionic capacitor add android
+```
+
+### Deploy (Colocando nosso aplicativo no dispositivo)
+
+```
+ionic capacitor open android
+```
