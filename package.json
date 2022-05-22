@@ -1,11 +1,11 @@
 {
   "name": "projeto_cep",
   "version": "0.0.1",
-  "author": "Ionic Framework",
+  "author": "César Henrique",
   "homepage": "https://ionicframework.com/",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start": "ionic serve --open",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
